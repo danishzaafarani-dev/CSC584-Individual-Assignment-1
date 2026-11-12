@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 12, 2026, 3:54:55 PM
+    Author     : Ahmad Danish
+*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    max-width: 550px;
+    background: #ffffff;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #555555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"], .back-btn {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover, .back-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Profile Card Specific Styles */
+.profile-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-item .label {
+    font-weight: 600;
+    color: #444;
+    width: 35%;
+}
+
+.profile-item .value {
+    color: #666;
+    width: 65%;
+    text-align: right;
+}
+
+.bio-section {
+    flex-direction: column;
+}
+
+.bio-section .value {
+    text-align: left;
+    width: 100%;
+    margin-top: 5px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.btn-container {
+    margin-top: 25px;
+}
